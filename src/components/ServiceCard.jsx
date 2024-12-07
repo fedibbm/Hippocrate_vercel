@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { useState } from "react";
 
 export const ServiceCard = ({ obj }) => {
   const { title, content, number, img } = obj;
